@@ -19,7 +19,4 @@ bot.on("guildMemberRemove", member => {
     member.guild.channels.find("name", "general").send(`${member} Quitte le rouyaume`)
 })
 
-bot.on('guildMemberAdd', member => {
-    var role = member.guild.roles.find('name', 'Membres');
-    member.addRole(VILLAGEOIS)
-})
+
