@@ -8,7 +8,7 @@ bot.on('ready', function() {
     console.log("connectedç");
 });
 
-bot.login(process.env.TOKEN);
+bot.login("NTg0MDMwMzkxMjE2NzY3MDA4.XPJ4EA.d4_eyHoBiQaXnekASMkG4GsytJ0");
 var prefix = (":::");
 
 bot.on("guildMemberAdd", member => {
